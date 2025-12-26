@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage('Clone Code') {
             steps {
-                // Replace with your GitHub repository URL
-                git branch: 'main', url: '[https://github.com/your-username/your-repo.git](https://github.com/your-username/your-repo.git)'
+                git branch: 'main', url: 'https://github.com/Jeyadinesh/Automated-CI-CD-Pipeline-for-a-2-Tier-Flask-Application-on-AWS.git'
             }
         }
         stage('Build Docker Image') {
